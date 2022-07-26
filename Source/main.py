@@ -37,10 +37,10 @@ def load_data(file_name):
 def main(file_name):
 
     complete_data, incomplete_data = load_data(file_name)
-    #data = np.array(pd.read_csv(r"C:\\Users\\suraj\\Downloads\\Studies\\Data Mining\\Complete datasets\\Data_3.csv", sep=','))
+    #data = np.array(pd.read_csv(r"C:\\Users\\varun\\Downloads\\Studies\\Data Mining\\Complete datasets\\Data_3.csv", sep=','))
     # Make FCM and SVR model
 
-    #path_src = 'C:\\Users\\suraj\\Downloads\\Studies\\Data Mining\\Incomplete datasets\\Data 3'
+    #path_src = 'C:\\Users\\varun\\Downloads\\Studies\\Data Mining\\Incomplete datasets\\Data 3'
     # for i in os.listdir(path_src):
 
     # if i.startswith('.'):
@@ -69,7 +69,7 @@ def main(file_name):
         print('Execution time:', time_taken, 'seconds')
         print("------------------------------------------------")
         '''
-        original_stdout = sys.stdout with open('C:\\Users\\suraj\\Downloads\\Studies\\Data Mining\\Output_3.txt', 'a') as f:
+        original_stdout = sys.stdout with open('C:\\Users\\varun\\Downloads\\Studies\\Data Mining\\Output_3.txt', 'a') as f:
         sys.stdout = f
 
         print(i)
